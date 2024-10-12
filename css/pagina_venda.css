@@ -76,8 +76,12 @@ main {
 #margem-capa {
     background-color: black;
     padding: 1rem;
+    margin-top: 4rem;
     height: 55.5rem;
     border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -107,12 +111,16 @@ h1 {
     height: 5rem;
     background-color: rgba(15, 14, 15, 1);
 }
-
+#botao-voltar:hover{
+    background-color: rgba(23, 23, 23, 1);
+}
 button {
     width: 36.2rem;
     height: 6.8rem;
     border-radius: 4.5rem;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
 }
 
 #botoes {
@@ -122,13 +130,64 @@ button {
     flex-direction: column;
 }
 
-#botao-comprar {
+#botao-comprar a button{
 
     background-color: rgba(153, 0, 255, 1);
     color: white;
 }
-
-#botao-carrinho {
+#botao-comprar{
+    padding-bottom: 7rem;
+}
+#botao-carrinho a button{
     color: white;
     background-color: rgba(23, 23, 23, 1);
+}
+
+#botao-voltar a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 37rem;
+    font-size: 2.4rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(19, 18, 19, 1);
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: white
+
+}
+#creditos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10rem;
+}
+#creditos a{
+    font-weight: bold;
+}
+#conteudos ul{
+    list-style: none;
+}
+#conteudos{
+    padding-right: 32.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#conteudos span{
+    font-weight: bold;
 }
