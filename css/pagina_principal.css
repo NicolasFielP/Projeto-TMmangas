@@ -7,7 +7,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgba(46, 46, 46, 1);
+}
 html,
 body {
     width: 100%;
@@ -59,19 +61,87 @@ nav button {
     font-size: 2.4rem;
 }
 
-main{
+main {
     background-color: rgba(46, 46, 46, 1);
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4rem;
     color: white;
     padding-top: 2rem;
 }
 
+.bloco-review {
+    width: 90%;
+    height: 28.7rem;
+    margin-left: 5%;
+    background-color: rgba(15, 14, 15, 1);
+    border-radius: 4.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
 
-footer{
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.perfil span {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.perfil img {
+    margin-bottom: 1rem;
+}
+
+.review-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.review-texto p {
+    font-size: 3.2rem;
+}
+h1{
+    padding-left: 2rem;
+}
+.review-parte-superior {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    padding-right: 2rem;
+}
+
+.review-parte-superior img {
+    width: 19.8rem;
+    height: 3rem;
+}
+
+.titulo-review {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icone {
+    border-radius: 18rem;
+}
+
+footer {
     width: 100%;
     height: 37rem;
     font-size: 2.4rem;
@@ -81,39 +151,43 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-footer a{
-    color: white
 
+footer a {
+    color: white
 }
-#creditos{
+
+#creditos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 10rem;
 }
-#creditos a{
+
+#creditos a {
     font-weight: bold;
 }
-#conteudos ul{
+
+#conteudos ul {
     list-style: none;
 }
-#conteudos{
+
+#conteudos {
     padding-right: 32.1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-#conteudos span{
+#conteudos span {
     font-weight: bold;
 }
 
-.linha{
+.linha {
     display: flex;
     justify-content: space-around;
 }
 
-.bloco-de-venda{
+.bloco-de-venda {
     width: 37rem;
     height: 37rem;
     border-radius: 4.5rem;
@@ -121,20 +195,23 @@ footer a{
     padding-top: 1.5rem;
     margin-top: 5rem;
 }
-.bloco-de-venda img{
+
+.bloco-de-venda img {
     width: 31.4rem;
     height: 17.7rem;
     border-radius: 2rem;
     padding-bottom: 1rem;
 }
-.bloco-de-venda a{
+
+.bloco-de-venda a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
 }
-.titulo{
+
+.titulo {
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -142,7 +219,8 @@ footer a{
     margin-bottom: 2rem;
     font-weight: bold;
 }
-.preco{
+
+.preco {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.6rem;
     color: white;
@@ -150,7 +228,7 @@ footer a{
     padding-bottom: 1.8rem;
 }
 
-.bloco-de-venda button{
+.bloco-de-venda button {
     width: 29rem;
     height: 5.5rem;
     border-radius: 4.5rem;
@@ -160,7 +238,7 @@ footer a{
     font-size: 2.4rem;
 }
 
-.bloco-de-venda:hover{
+.bloco-de-venda:hover {
     background-color: rgba(153, 0, 255, 1);
     transition: 250ms;
     box-shadow: 1rem 2rem 2rem black;
