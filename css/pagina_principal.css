@@ -133,7 +133,9 @@ h1{
     color: white;
     font-size: 2.4rem;
 }
-
+.bloco-de-venda button:hover{
+    cursor: pointer;
+}
 .bloco-de-venda:hover {
     background-color: rgba(153, 0, 255, 1);
     transition: 250ms;

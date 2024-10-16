@@ -6,7 +6,7 @@ main {
     padding-right: 100rem;
     display: flex;
     justify-content: space-between;
-    height: calc(100% - 8rem - 5.1rem - 5rem);
+    min-height: calc(100% - 8rem - 5.1rem - 5rem);
 }
 
 #informacoes-compra {
