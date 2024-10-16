@@ -1,16 +1,17 @@
 
 main {
+    width: 100%;
     padding-top: 5rem;
     background-color: rgba(46, 46, 46, 1);
-    padding-left: 9rem;
-    padding-right: 100rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    min-height: calc(100% - 8rem - 5.1rem - 5rem);
+    min-height: calc(100% - 8rem - 5.1rem - 10rem);
 }
 
 #informacoes-compra {
     padding-left: 5rem;
+    margin-right: 80rem;
 }
 
 #margem-capa {
@@ -22,6 +23,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 9rem;
 }
 
 h1 {
@@ -50,7 +52,8 @@ h1 {
     width: 100%;
     height: 5rem;
     background-color: rgba(15, 14, 15, 1);
-    margin-top: 1rem;
+    margin-top: 5rem;
+    align-self: flex-end;
 }
 #botao-voltar:hover{
     background-color: rgba(23, 23, 23, 1);
