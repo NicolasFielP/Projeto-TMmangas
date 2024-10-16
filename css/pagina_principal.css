@@ -1,5 +1,6 @@
 main {
     background-color: rgba(46, 46, 46, 1);
+    min-height: calc(100% - 8rem - 5.1rem);
 }
 
 h1 {
